@@ -1,0 +1,27 @@
+Class Wrapper
+	
+	기본자료형 타입의 값을 저장하는 객체를 생성
+	용도
+		기본자료형 타입의 값을 담는 박스
+		기본자료형 타이브이 값과 관련된 유용한 기능을 제공한다.
+
+	Boxing 
+		기본자료형의 값을 wrapper객체를 생성해서 담는 것
+		Integer a = new Integer(23);
+		Integer a = new Integer("23");
+		Integer a = Integer.valueOf("23");
+
+	UnBoxing
+		Wrapper객체에 저장된 기본자료형의 값을 꺼내는 것
+		int b = a.intValue();
+
+
+
+	AutoBoxing
+		기본자료형 값을 직접 Wrapper 타입의 변수에 대입할 때 발생
+		Integer a = 23;	// Integer a = new Integer(23);
+		
+	
+	AutoUnBoxing
+		기본자료형 타입의 변수에 Wrapper객체를 대입할 때 발생
+		int b = a;	// int b = a.intValue();

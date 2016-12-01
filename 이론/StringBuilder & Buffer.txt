@@ -1,0 +1,8 @@
+
+StringBuilder  속도 빠름  Thread unsafe
+
+StringBuffer  Thread safe
+
+
+
+둘다 내부적으로 버퍼를 가지고 있음
